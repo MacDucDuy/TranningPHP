@@ -17,6 +17,6 @@ class AuthController extends Controller
 
     public function store(LoginRequest $request)
     {
-        dd('abc');
+        ;
     }
 }

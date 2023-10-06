@@ -1,4 +1,4 @@
-<div style="background-color: #343a40" class="container-fluid">
+<div style="background-color: #343a40; position:fixed; bottom :0" class="container-fluid">
     <div class="container">
         <div class=" footer d-flex justify-content-between py-5">
             <div class="footer-profile">

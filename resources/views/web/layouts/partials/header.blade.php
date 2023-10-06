@@ -24,15 +24,35 @@
             <button class="btn btn-primary  btn-search">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <span>Tìm kiếm</span>
-                </button>
+            </button>
         </div>
         <div class="header-menu d-flex align-items-center justify-content-end">
             <span>Menu</span> <i class="fa-solid fa-bars mx-3"></i>
         </div>
     </div>
     <div class="header-bottom">
-        <div class="header-slider">
+        <div class="slider header-slider">
+            <div class="slider-img">
+                <img src="https://beetechsoft.com/assets/images/header/logo.png" alt="">
+            </div>
 
+            <div class="slider-img">
+                <img src="https://beetechsoft.com/assets/images/header/logo.png" alt="">
+            </div>
+
+            <div class="slider-img">
+                <img src="https://beetechsoft.com/assets/images/header/logo.png" alt="">
+            </div>
+
+            <div class="slider-img">
+                <img src="https://beetechsoft.com/assets/images/header/logo.png" alt="">
+            </div>
+
+            <div class="slider-img">
+                <img src="https://beetechsoft.com/assets/images/header/logo.png" alt="">
+            </div>
         </div>
     </div>
 </div>
+
+
