@@ -19,8 +19,20 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'user_name',
         'email',
         'password',
+        'phone',	
+        'avatar',	
+        'address',	
+        'roles',	
+        'gender',	
+        'email_verified_at',	
+        'password',	
+        'remember_token',	
+        'deleted_at',	
+        'created_at',	
+        'updated_at'
     ];
 
     /**
@@ -42,4 +54,10 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    CONST ROLES_ADMIN = 1;
+
+    public function isAdmin(){
+        return $this->roles == 1;
+    }
 }

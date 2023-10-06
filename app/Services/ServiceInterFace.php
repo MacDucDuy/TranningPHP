@@ -1,9 +1,9 @@
 <?php
-namespace App\Service;
+namespace App\Services;
 
 interface ServiceInterface
 {
-    public function all();
+    public function getAll();
 
     public function find($id);
 

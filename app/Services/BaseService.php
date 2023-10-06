@@ -1,7 +1,7 @@
 <?php 
 namespace App\Services;
 
-use App\Service\ServiceInterface;
+use App\Services\ServiceInterface;
 use Illuminate\Database\Eloquent\Model;
 
 class BaseService implements ServiceInterface
@@ -13,7 +13,7 @@ class BaseService implements ServiceInterface
         $this->model = $model;
     }
 
-    public function all()
+    public function getAll()
     {
         return $this->model->all();
     }

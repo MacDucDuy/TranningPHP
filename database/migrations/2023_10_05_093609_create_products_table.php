@@ -12,8 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('products', function (Blueprint $table) {
-            $table->id();
-            $table->integer('ma_san_pham'); // Mã sản phẩm kiểu Integer
+            $table->id(); // Mã sản phẩm kiểu Integer
             $table->string('name'); // Tên sản phẩm kiểu Varchar
             $table->integer('category_id'); // Mã danh mục kiểu Integer
             $table->float('price'); // Giá sản phẩm kiểu Float
