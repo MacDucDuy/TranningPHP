@@ -34,12 +34,5 @@ class LoginRequest extends FormRequest
             "email"=> ":attribute phải có định dạng là email"
         ];
     }
-
-    public function attributes()
-{
-    return [
-        'email' => 'Email',
-        'password' => 'Mật khẩu',
-    ];
-}
+    
 }
